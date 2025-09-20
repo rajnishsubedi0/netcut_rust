@@ -1,0 +1,10 @@
+[package]
+name = "netcut_project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pnet = "0.35.0"
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+ctrlc = "3.4"
